@@ -1,0 +1,21 @@
+<launch>
+  <arg name="NODELET_MANAGER" default="right_hand_camera/left/left_nodelet_manager" />
+  <arg name="rviz" default="false" />
+
+  <node name="kinfu_model_generation"
+        pkg="nodelet" type="nodelet"
+        args="load jsk_pcl/KinfuModelGeneration $(arg NODELET_MANAGER)"
+        output="screen" >
+    <remap from="~input/camera_info" to="/right_hand_camera/left/rgb/camera_info" />
+    <remap from="~input/depth" to="/right_hand_camera/fused/depth_registered/image_rect" />
+    <param name="~width" value="640" />
+    <param name="~height" value="480)" />
+  </node>
+
+  <group if="$(arg rviz)" >
+    <node name="rviz"
+          pkg="rviz" type="rviz"
+          args="-d $(find jsk_arc2017_baxter)/rvizconfig/kinfu.rviz" >
+    </node>
+  </group>
+</launch>
