@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "size_id": "1AD",
+            "contents": [
+                "irish_spring_soap"
+            ]
+        },
+        {
+            "size_id": "1A5",
+            "contents": [
+                "tennis_ball_container",
+                "poland_spring_water"
+            ]
+        },
+        {
+            "size_id": "K3",
+            "contents": [
+                "hanes_socks",
+                "flashlight",
+                "hinged_ruled_index_cards"
+            ]
+        }
+    ]
+}
