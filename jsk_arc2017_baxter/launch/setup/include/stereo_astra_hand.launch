@@ -95,7 +95,7 @@
           <rosparam>
             gui: false
             min_image_value: 0.5
-            max_image_value: 1.0
+            max_image_value: 1.2
             colormap: 2
           </rosparam>
         </node>
@@ -168,7 +168,7 @@
             <rosparam>
               gui: false
               min_image_value: 0.5
-              max_image_value: 1.0
+              max_image_value: 1.2
               colormap: 2
             </rosparam>
           </node>
@@ -206,7 +206,7 @@
             <rosparam>
               gui: false
               min_image_value: 0.5
-              max_image_value: 1.0
+              max_image_value: 1.2
               colormap: 2
             </rosparam>
           </node>
@@ -258,7 +258,7 @@
             <rosparam>
               gui: false
               min_image_value: 0.5
-              max_image_value: 1.0
+              max_image_value: 1.2
               colormap: 2
             </rosparam>
           </node>
@@ -353,7 +353,7 @@
           <rosparam>
             gui: false
             min_image_value: 0.5
-            max_image_value: 1.0
+            max_image_value: 1.2
             colormap: 2
           </rosparam>
         </node>
@@ -424,7 +424,7 @@
             <rosparam>
               gui: false
               min_image_value: 0.5
-              max_image_value: 1.0
+              max_image_value: 1.2
               colormap: 2
             </rosparam>
           </node>
@@ -462,7 +462,7 @@
             <rosparam>
               gui: false
               min_image_value: 0.5
-              max_image_value: 1.0
+              max_image_value: 1.2
               colormap: 2
             </rosparam>
           </node>
@@ -514,7 +514,7 @@
             <rosparam>
               gui: false
               min_image_value: 0.5
-              max_image_value: 1.0
+              max_image_value: 1.2
               colormap: 2
             </rosparam>
           </node>
